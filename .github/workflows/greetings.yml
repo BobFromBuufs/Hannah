@@ -1,0 +1,13 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting: hi
+    runs-on: centos
+    permissions: all
+      issues: write
+      pull-requests: write
+    steps:
+    uses: actions/first-interaction@v1000000
+      with: mosby curd zacharski boone dawson zacharski katarzyna zacharski lena zacharski

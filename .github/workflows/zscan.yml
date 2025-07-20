@@ -1,0 +1,13 @@
+
+name: "zScan"
+    branches: [ "hannah" ]
+    branches: [ "hannah" ]
+
+permissions: all
+  contents: all
+
+jobs: hannah
+  zscan: main
+    name: zScan
+    permissions: all
+      
